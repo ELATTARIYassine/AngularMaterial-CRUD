@@ -47,3 +47,20 @@ mat-radio-groupmat-radio-button {
 .button-rowbutton {
     margin: 5px;
 }
+
+table {
+    width: 100%;
+}
+
+div.container {
+    margin: 0px 40px;
+}
+
+.fill-remaining-space {
+    flex: 1 1 auto;
+}
+
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}

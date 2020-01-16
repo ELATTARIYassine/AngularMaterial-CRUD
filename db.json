@@ -32,6 +32,50 @@
       "department": "2",
       "hireDate": "2020-01-09T23:00:00.000Z",
       "isPermanent": true
+    },
+    {
+      "id": 4,
+      "fullName": "omar",
+      "email": "omar@gmail.com",
+      "mobile": "00000000",
+      "city": "tanger",
+      "gender": "2",
+      "department": "2",
+      "hireDate": "2020-01-14T23:00:00.000Z",
+      "isPermanent": true
+    },
+    {
+      "id": 5,
+      "fullName": "Mouad",
+      "email": "mouad@gmail.com",
+      "mobile": "00222222",
+      "city": "beni mellal",
+      "gender": "1",
+      "department": "3",
+      "hireDate": "2020-01-05T23:00:00.000Z",
+      "isPermanent": false
+    },
+    {
+      "id": 6,
+      "fullName": "bonjour",
+      "email": "uuuu@gmail.com",
+      "mobile": "0000000888",
+      "city": "city 1",
+      "gender": "1",
+      "department": "2",
+      "hireDate": "2020-01-16T23:00:00.000Z",
+      "isPermanent": true
+    },
+    {
+      "id": 7,
+      "fullName": "name 1",
+      "email": "name@gmail.com",
+      "mobile": "66666666666666",
+      "city": "yyyy",
+      "gender": "1",
+      "department": "2",
+      "hireDate": "2020-01-24T23:00:00.000Z",
+      "isPermanent": true
     }
   ]
 }

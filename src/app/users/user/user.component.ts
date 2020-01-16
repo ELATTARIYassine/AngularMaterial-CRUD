@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import{UserService}from'src/app/services/user.service';
 import { User } from 'src/app/model/user.model';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-user',
   templateUrl: './user.component.html',
@@ -19,7 +20,7 @@ export class UserComponent implements OnInit {
     isPermanent:false
   };
 
-  constructor(private service:UserService) { }
+  constructor(private service:UserService, private router: Router) { }
   departments = [
     {id:3,value:'Dep1'},
     {id:2,value:'Dep2'},
@@ -40,6 +41,7 @@ export class UserComponent implements OnInit {
     .subscribe((user)=>{
       this.users = [user, ...this.users];
     });
+    this.router.navigateByUrl("/");
   }
 
   onSubmit(){
