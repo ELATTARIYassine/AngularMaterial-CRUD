@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "json-server",
+      "email": "email2@gmail.com",
+      "mobile": "232323",
+      "city": "city 1",
+      "gender": "M",
+      "departement": "Dep1",
+      "hireDate": "2019-01-09",
+      "isPermanent": "False"
+    },
+    {
+      "id": 2,
+      "fullName": "json-server 1",
+      "email": "email2@gmail.com",
+      "mobile": "232323",
+      "city": "city 2",
+      "gender": "F",
+      "departement": "Dep2",
+      "hireDate": "2019-01-04",
+      "isPermanent": "True"
+    },
+    {
+      "id": 3,
+      "fullName": "yassine",
+      "email": "yassineattari64@gmail.com",
+      "mobile": "0723737237327",
+      "city": "beni mella",
+      "gender": "1",
+      "department": "2",
+      "hireDate": "2020-01-09T23:00:00.000Z",
+      "isPermanent": true
+    }
+  ]
+}

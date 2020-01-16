@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "HelveticaNeue", sans-serif;
+}
+
+div.container {
+    margin: 0px40px;
+}
+
+.fill-remaining-space {
+    /*Thisfillstheremainingspace,byusingflexbox.Everytoolbarrowusesaflexboxrowlayout.*/
+    flex: 11auto;
+}
+
+form.normal-form {
+    margin: 10px;
+}
+
+.controles-container {
+    width: 100%;
+    padding: 5%;
+}
+
+.controles-container>* {
+    width: 100%;
+}
+
+.add-bottom-padding {
+    padding-bottom: 10px;
+}
+
+
+/*radiogroup*/
+
+mat-radio-groupmat-radio-button {
+    margin-left: 5px;
+}
+
+.button-rowbutton {
+    margin: 5px;
+}
