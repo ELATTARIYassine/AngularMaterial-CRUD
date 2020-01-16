@@ -22,9 +22,9 @@ export class UserComponent implements OnInit {
 
   constructor(private service:UserService, private router: Router) { }
   departments = [
-    {id:3,value:'Dep1'},
-    {id:2,value:'Dep2'},
-    {id:3,value:'Dep3'}
+    {id:'Dep1',value:'Dep1'},
+    {id:'Dep2',value:'Dep2'},
+    {id:'Dep3',value:'Dep3'}
   ];
   onClear(){
     this.service.initializeFormGroup();
@@ -41,7 +41,6 @@ export class UserComponent implements OnInit {
     .subscribe((user)=>{
       this.users = [user, ...this.users];
     });
-    this.router.navigateByUrl("/");
   }
 
   onSubmit(){
