@@ -9,6 +9,28 @@
       "gender": "M",
       "department": "Dep1",
       "hireDate": "2020-01-16T23:00:00.000Z",
+      "isPermanent": false
+    },
+    {
+      "id": 2,
+      "fullName": "user2",
+      "email": "user3@gmail.com",
+      "mobile": "333333333",
+      "city": "youssoufia",
+      "gender": "M",
+      "department": "Dep2",
+      "hireDate": "2020-01-16T23:00:00.000Z",
+      "isPermanent": true
+    },
+    {
+      "id": 3,
+      "fullName": "user3",
+      "email": "user3@gmail.com",
+      "mobile": "22222222222222",
+      "city": "youssoufia",
+      "gender": "M",
+      "department": "Dep1",
+      "hireDate": "2020-01-05T23:00:00.000Z",
       "isPermanent": true
     }
   ]

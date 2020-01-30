@@ -37,10 +37,22 @@ export class UserComponent implements OnInit {
   users :User[] = []
 
   add(){
-    this.service.add(this.user)
-    .subscribe((user)=>{
-      this.users = [user, ...this.users];
-    });
+    if(this.user.id == undefined){
+      console.log(this.user);
+      this.service.add(this.user)
+      .subscribe((user)=>{
+        this.users = [user, ...this.users];
+        this.router.navigate(['/']);
+      });
+    }
+    else{
+      this.service.update(this.user)
+      .subscribe((user)=>{
+        console.log(user);
+        this.router.navigate(['/']);
+      });
+    }
+    
   }
 
   onSubmit(){
