@@ -2,68 +2,13 @@
   "users": [
     {
       "id": 1,
-      "fullName": "json-server",
-      "email": "email2@gmail.com",
-      "mobile": "232323",
+      "fullName": "USER 1",
+      "email": "user1@gmail.com",
+      "mobile": "0000000000",
       "city": "city 1",
       "gender": "M",
-      "departement": "Dep1",
-      "hireDate": "2019-01-09",
-      "isPermanent": "False"
-    },
-    {
-      "id": 2,
-      "fullName": "json-server 1",
-      "email": "email2@gmail.com",
-      "mobile": "232323",
-      "city": "city 2",
-      "gender": "F",
-      "departement": "Dep2",
-      "hireDate": "2019-01-04",
-      "isPermanent": "True"
-    },
-    {
-      "id": 3,
-      "fullName": "azeaze",
-      "email": "yassineattari64@gmail.com",
-      "mobile": "22222222222222",
-      "city": "aokeaz",
-      "gender": "2",
-      "department": "Dep2",
-      "hireDate": "2020-01-05T23:00:00.000Z",
-      "isPermanent": true
-    },
-    {
-      "id": 4,
-      "fullName": "azeaze",
-      "email": "yassineattari64@gmail.com",
-      "mobile": "22222222222222",
-      "city": "1/10/2020",
-      "gender": "2",
-      "department": "Dep2",
+      "department": "Dep1",
       "hireDate": "2020-01-16T23:00:00.000Z",
-      "isPermanent": true
-    },
-    {
-      "id": 5,
-      "fullName": "azeaze",
-      "email": "yassineattari64@gmail.com",
-      "mobile": "22222222222222",
-      "city": "1/10/2020",
-      "gender": "M",
-      "department": "Dep2",
-      "hireDate": "2020-01-09T23:00:00.000Z",
-      "isPermanent": false
-    },
-    {
-      "id": 6,
-      "fullName": "azeaze",
-      "email": "yassineattari64@gmail.com",
-      "mobile": "22222222222222",
-      "city": "aokeaz",
-      "gender": "F",
-      "department": "Dep2",
-      "hireDate": "2020-01-14T23:00:00.000Z",
       "isPermanent": true
     }
   ]

@@ -48,5 +48,8 @@ export class UserService {
   update(user){
     return this.http.put(`${this.url}/${user.id}`, user);
   }
+  populateform(row){
+    this.form.setValue(row);
+  }
   
 }
